@@ -2,8 +2,11 @@
 
 h8_version="$1"
 
-rm -r dist
-mkdir dist
+if [ -d dist ]; then
+    rm dist/*
+else
+    mkdir dist
+fi
 
 for file in src/*.svg; do
     target_path=$(echo "$file" | sed s/src/dist/ | sed s/\.svg//)
