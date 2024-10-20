@@ -13,3 +13,5 @@ for file in src/*.svg; do
     echo "building $target_path..."
     cat "$file" | sed s/XX/$h8_version/g | inkscape -p -o "$target_path"
 done
+
+convert dist/favicon.png dist/favicon.ico
