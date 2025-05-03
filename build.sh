@@ -16,4 +16,6 @@ done
 
 convert dist/favicon.png dist/favicon.ico
 
-typst compile anmeldeformular/main.typ dist/anmeldeformular.pdf
+pdf_output_path='dist/anmeldeformular.pdf'
+echo "building $pdf_output_path..."
+typst compile anmeldeformular/main.typ "$pdf_output_path"
