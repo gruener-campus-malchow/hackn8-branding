@@ -15,3 +15,5 @@ for file in src/*.svg; do
 done
 
 convert dist/favicon.png dist/favicon.ico
+
+typst compile anmeldeformular/main.typ dist/anmeldeformular.pdf
