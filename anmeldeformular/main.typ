@@ -1,6 +1,7 @@
-#let event = [14hackn8\@gcm]
-#let start_date = [22.11.2024 18:00]
-#let end_date = [23.11.2024 14:00]
+#let event = [15hackn8\@gcm]
+#let start_date = [27.06.2025 18:00]
+#let end_date = [28.06.2025 14:00]
+#let no_gaming = true
 
 #import "@preview/icu-datetime:0.1.1": fmt-date
 #set text(
@@ -35,6 +36,7 @@ wir führen eine weitere HackN8 *vom #start_date zum #end_date* durch.
 Ziel ist es, sich intensiv mit Technologie auseinanderzusetzen.
 Bei der HackN8 treffen sich Gleichgesinnte aller Generationen, um sich auszutauschen und einander zu helfen.
 Dabei legen wir großen Wert auf das respektvolle Miteinander und achten die Unterschiede der Anderen.
+#if no_gaming [*Die #event findet ohne Gaming statt.*]
 
 = Regeln
 
