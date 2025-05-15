@@ -87,7 +87,7 @@ _für Volljährige:_ \
   columns: (auto, auto),
   gutter: 2mm,
   box(width: 4mm, height: 4mm, stroke: black),
-  [*Ich habe die Regeln gelesen und zur Kenntnis genommen.* \ Mit meiner Unterschrift bestätige ich die Richtigkeit der angegebenen Informationen zu meiner Person. Ich übernehme die Haftung für durch mich verursachte Schäden.],
+  block(width: 100%)[*Ich habe die Regeln gelesen und zur Kenntnis genommen.* \ Mit meiner Unterschrift bestätige ich die Richtigkeit der angegebenen Informationen zu meiner Person. Ich übernehme die Haftung für durch mich verursachte Schäden.],
 )
 
 _für Erziehungsberechtigte:_ \
@@ -96,7 +96,7 @@ _für Erziehungsberechtigte:_ \
   columns: (auto, auto),
   gutter: 2mm,
   box(width: 4mm, height: 4mm, stroke: black),
-  [*Ich habe die Regeln mit meinem Kind besprochen, und hole es auf Aufforderung ab.* \ Mit meiner Unterschrift bestätige ich die Richtigkeit der angegebenen Informationen zu meinem Kind, sowie die meiner Kontaktinformationen. Ich übernehme die Haftung für durch mein Kind verursachte Schäden.],
+  block(width: 100%)[*Ich habe die Regeln mit meinem Kind besprochen, und hole es auf Aufforderung ab.* \ Mit meiner Unterschrift bestätige ich die Richtigkeit der angegebenen Informationen zu meinem Kind, sowie die meiner Kontaktinformationen. Ich übernehme die Haftung für durch mein Kind verursachte Schäden.],
 )
 
 #v(1fr)
