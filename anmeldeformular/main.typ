@@ -49,7 +49,7 @@ Dabei legen wir großen Wert auf das respektvolle Miteinander und achten die Unt
 + *Drogen und Konsum*
   + Sämtliche Drogen (auch Alkohol) sind verboten.
   + Es gilt die Schulordnung, insbesondere das Rauchverbot.
-  + Hochprozentige Koffein-Drinks (aka. Energy-Drinks) sind nicht erwünscht.
+  + Hochprozentige Koffein-Drinks (Energy-Drinks) sind nicht erwünscht.
 + *Computer sind dazu da, Schönes zu erschaffen.*
 
 = Angaben Teilnehmer:in
