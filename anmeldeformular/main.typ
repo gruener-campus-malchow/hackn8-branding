@@ -1,7 +1,7 @@
-#let event = [15hackn8\@gcm]
-#let start_date = [27.06.2025 18:00]
-#let end_date = [28.06.2025 14:00]
-#let no_gaming = true
+#let event = [16hackn8\@gcm]
+#let start_date = [28.11.2025 18:00]
+#let end_date = [29.11.2025 14:00]
+#let no_gaming = false
 
 #import "@preview/icu-datetime:0.1.1": fmt-date
 #set text(
